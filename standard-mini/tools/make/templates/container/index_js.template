@@ -1,0 +1,18 @@
+import React from 'react';
+
+const <% name %> = ({ children }) => {
+
+    return (
+        <>
+            { children }
+        </>
+    );
+}
+
+<% name %>.propTypes = {
+}
+
+<% name %>.defaultProps = {
+};
+
+export default <% name %>;

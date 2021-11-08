@@ -1,0 +1,28 @@
+// Colors
+$color-white: #fafafa;
+$color-black: #131313;
+
+$color-dodger-blue: #0abeff;
+$color-forest-green: #258238;
+$color-caribbean-green: #00df7e;
+$color-starship: #e1ee2f;
+$color-west-side: #ff970f;
+$color-coral-red: #ff3a3b;
+$color-lavender-magenta: #f395df;
+$color-heliotrope: #9f53ff;
+
+// Sizes
+$max-page-width: 1920px;
+
+// Breakpoints
+$breakpoint-mobile: 640px;
+$breakpoint-tablet: 768px;
+$breakpoint-tablet-large: 1024px;
+$breakpoint-desktop: 1280px;
+$breakpoint-mega: 1440px;
+$breakpoint-huge: 1920px;
+
+// Easings
+$easing-in-out-strong: cubic-bezier(0.535, 0.020, 0.130, 1.000);
+$easing-out-strong: cubic-bezier(0.195, 0.630, 0.195, 0.995);
+$easing-in-strong: cubic-bezier(0.535, 0.005, 0.890, 0.435);
