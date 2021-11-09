@@ -28,26 +28,26 @@ const printNiceBox = (lines, settings) => {
         let leftPad = 1;
         let rightPad = pad - 1;
         return makeRepeater(' ', leftPad) + content + makeRepeater(' ', rightPad);
-    }
+    };
 
     const padLineRight = (width, len, content) => {
         let pad = (width - len) - 1;
         let leftPad = pad - 1;
         let rightPad = 1;
         return makeRepeater(' ', leftPad) + content + makeRepeater(' ', rightPad);
-    }
+    };
 
     const padLineCenter = (width, len, content) => {
         let pad = ((width - len) - 1) / 2;
         let leftPad = Math.floor(pad);
         let rightPad = Math.ceil(pad);
         return makeRepeater(' ', leftPad) + content + makeRepeater(' ', rightPad);
-    }
+    };
 
     const makeLine = (content, width, align='center') => {
         let visibleContent = content.stripColors;
         let len = [...visibleContent].length;
-        
+
         switch (align) {
             case 'left':
                 return padLineLeft(width, len, content);
@@ -79,7 +79,7 @@ ${verticalPadding}    ${bl}${ horizontalBorder.red }${br}
 `.red;
 
     console.log(output);
-}
+};
 
 function getFrame(type) {
     return {

@@ -6,8 +6,8 @@ import colors from 'colors';
 * @param {String} msg 
 */
 const abort = (msg) => {
-   console.log('\n' + colors.red.inverse(' ERROR ') + ' ' + msg + '\n');
-   process.exit();
-}
+    console.log('\n' + colors.red.inverse(' ERROR ') + ' ' + msg + '\n');
+    process.exit();
+};
 
 export default abort;

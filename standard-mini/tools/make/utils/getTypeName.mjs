@@ -11,13 +11,13 @@
  * @returns
  */
 const getTypeName = (template) => {
-    
+
     switch (template.toLowerCase()) {
         case 'component':
         case 'theme':
         default:
-            return template.toLowerCase()
+            return template.toLowerCase();
     }
-}
+};
 
 export default getTypeName;
